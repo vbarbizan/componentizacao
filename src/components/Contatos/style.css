@@ -1,0 +1,67 @@
+/* Contato */
+.contato {
+    padding: 32px 16px;
+  }
+  
+  .contato h2 {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  
+  .contato-container {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  
+  .contato-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .contato-info p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 1em;
+  }
+  
+  .contato-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .contato-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .contato-form input,
+  .contato-form textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .contato-form button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .contato-mapa {
+    flex: 1;
+  }
+  /* Contato - end */
